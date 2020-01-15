@@ -1,0 +1,18 @@
+// Variables Bootstrap 4
+
+$red:     #cc2eaa;
+$green:   #2ecc71;
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1540px;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    flex-wrap: nowrap;
+    display: flex;
+  }
+}
